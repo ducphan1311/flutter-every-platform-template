@@ -54,6 +54,11 @@ dependencies:
   # cached image
   cached_network_image: ^3.3.0
 
+  path_provider: ^2.1.1
+  postgres: ^2.6.3
+  isar: ^3.1.0+1
+  isar_flutter_libs:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -61,6 +66,7 @@ dev_dependencies:
   flutter_gen_runner:
   json_serializable:
   freezed:
+  isar_generator:
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

@@ -24,7 +24,6 @@ mixin _$AuthNavigationState {
     required TResult Function() loadConfig,
   }) =>
       throw _privateConstructorUsedError;
-
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? authorized,
@@ -42,7 +41,6 @@ mixin _$AuthNavigationState {
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
-
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
     required TResult Function(AuthNavigationStateAuthorized value) authorized,
@@ -52,7 +50,6 @@ mixin _$AuthNavigationState {
     required TResult Function(AuthNavigationStateLoadConfig value) loadConfig,
   }) =>
       throw _privateConstructorUsedError;
-
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(AuthNavigationStateAuthorized value)? authorized,
@@ -84,9 +81,9 @@ class _$AuthNavigationStateCopyWithImpl<$Res, $Val extends AuthNavigationState>
     implements $AuthNavigationStateCopyWith<$Res> {
   _$AuthNavigationStateCopyWithImpl(this._value, this._then);
 
-// ignore: unused_field
+  // ignore: unused_field
   final $Val _value;
-// ignore: unused_field
+  // ignore: unused_field
   final $Res Function($Val) _then;
 }
 
