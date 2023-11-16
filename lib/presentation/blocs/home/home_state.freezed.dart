@@ -23,7 +23,6 @@ mixin _$HomeState {
     required TResult Function(dynamic error) error,
   }) =>
       throw _privateConstructorUsedError;
-
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>(
     TResult? Function(String defaultData)? $default, {
@@ -76,7 +75,6 @@ class _$HomeStateCopyWithImpl<$Res, $Val extends HomeState>
 
   // ignore: unused_field
   final $Val _value;
-
   // ignore: unused_field
   final $Res Function($Val) _then;
 }
@@ -86,7 +84,6 @@ abstract class _$$HomeStateDataImplCopyWith<$Res> {
   factory _$$HomeStateDataImplCopyWith(
           _$HomeStateDataImpl value, $Res Function(_$HomeStateDataImpl) then) =
       __$$HomeStateDataImplCopyWithImpl<$Res>;
-
   @useResult
   $Res call({String defaultData});
 }
@@ -217,7 +214,6 @@ abstract class HomeStateData implements HomeState {
   const factory HomeStateData(final String defaultData) = _$HomeStateDataImpl;
 
   String get defaultData;
-
   @JsonKey(ignore: true)
   _$$HomeStateDataImplCopyWith<_$HomeStateDataImpl> get copyWith =>
       throw _privateConstructorUsedError;
@@ -336,7 +332,6 @@ abstract class _$$HomeStateErrorImplCopyWith<$Res> {
   factory _$$HomeStateErrorImplCopyWith(_$HomeStateErrorImpl value,
           $Res Function(_$HomeStateErrorImpl) then) =
       __$$HomeStateErrorImplCopyWithImpl<$Res>;
-
   @useResult
   $Res call({dynamic error});
 }
@@ -468,7 +463,6 @@ abstract class HomeStateError implements HomeState {
   const factory HomeStateError(final dynamic error) = _$HomeStateErrorImpl;
 
   dynamic get error;
-
   @JsonKey(ignore: true)
   _$$HomeStateErrorImplCopyWith<_$HomeStateErrorImpl> get copyWith =>
       throw _privateConstructorUsedError;
